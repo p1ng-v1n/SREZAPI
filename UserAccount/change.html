@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <title>Change</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+   <link rel="stylesheet" href="../UserAccount/css/change.css" />
+   <meta charset="UTF-8">
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="change-container _container">
+         <div class="body__change">
+            <div class="change__img">
+               <img src="../UserAccount/img/icons/Lock.svg" alt="" srcset="">
+            </div>
+            <form class="change__form">
+               <div class="change__title">
+                  <h2>Изменение пароля</h2>
+               </div>
+               <div class="change__form-email">
+                  <h2 class="form__subtitle">
+                     Email
+                  </h2>
+                  <input id="email-change" type="text" class="form-email__input" required aria-required="true"
+                     placeholder="cooper@example.com">
+               </div>
+               <h2 class="form__subtitle">
+                  Новый пароль
+               </h2>
+               <div class="change__form-password">
+                  <input type="password" id="password-change" class="form-password__input" required aria-required="true"
+                     placeholder="········">
+                  <a href="#" class="password__input-icon" onclick="return show_hide_password(this);">
+                  </a>
+               </div>
+               <h2 class="form__subtitle">
+                  Подтверждение пароля
+               </h2>
+               <div class="change__form-password-confirm">
+                  <input id="password-confim-change" type="password" class="form-password__input-confirm" required aria-required="true"
+                     placeholder="········">
+                  <a href="#" class="password__confirm-input-icon" onclick="return show_hide_password2(this);">
+                  </a>
+               </div>
+               <div class="change__form-log">
+                  <button id="button-change"  type="button">Изменить пароль</button>
+               </div>
+            </form>
+            <div class="change__footer">
+               <h2>Обратно к<a href="../UserAccount/index.html">Авторизации</a></h2>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="../UserAccount/js/change.js"></script>
+</body>
+
+</html>

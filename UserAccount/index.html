@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Authorization</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="autorization-container _container">
+            <div class="body__autorization">
+                <div class="autorization__title">
+                    <h2>Авторизация</h2>
+                </div>
+                <div class="autorization__form">
+                    <div class="autorization__form-email">
+                        <h2 class="form__subtitle">
+                            Email
+                        </h2>
+                        <input id="auth-email" type="text" class="form-email__input" placeholder="cooper@example.com">
+                    </div>
+                    <h2 class="form__subtitle">
+                        Пароль
+                    </h2>
+                    <div class="autorization__form-password">
+                        <input id="auth-password" type="password" class="form-password__input" placeholder="········">
+                        <a href="#" class="password__input-icon" onclick="return show_hide_password(this);">
+                        </a>
+                    </div>
+                    <div class="autorization__form-remeber">
+                        <a href="../UserAccount/recovery.html" class="form__remeber-link">Забыли пароль?</a>
+                    </div>
+                    <div class="autorization__form-log">
+                        <button id="auth-enter" tabindex="4" type="button">Войти</button>
+                    </div>
+                </div>
+                <div class="autorization__footer">
+                    <h2>Ещё нет аккаунта? <a href="../UserAccount/registration.html">Зарегистрироваться</a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../UserAccount/js/script.js"></script>
+</body>
+
+</html>

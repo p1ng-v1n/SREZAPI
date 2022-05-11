@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <title>Registration</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+   <link rel="stylesheet" href="../UserAccount/css/registration.css" />
+   <meta charset="UTF-8">
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="registration-container _container">
+         <div class="body__registration">
+            <div class="registration__title">
+               <h2>Региcтрация</h2>
+            </div>
+            <div class="registration__form">
+               <div class="registration__form-fio">
+                  <h2 class="form__subtitle">
+                     ФИО
+                  </h2>
+                  <input id="FIO" type="text" class="form-fio__input" placeholder="Regina Cooper">
+               </div>
+               <div class="registration__form-email">
+                  <h2 class="form__subtitle">
+                     Email
+                  </h2>
+                  <input id="email" type="text" class="form-email__input" placeholder="cooper@example.com">
+               </div>
+               <h2 class="form__subtitle">
+                  Пароль
+               </h2>
+               <div class="registration__form-password">
+                  <input id="password" type="password" class="form-password__input" placeholder="········">
+                  <a href="#" class="password__input-icon" onclick="return show_hide_password(this);">
+                  </a>
+               </div>
+               <h2 class="form__subtitle">
+                  Подтверждение пароля
+               </h2>
+               <div class="registration__form-password-confirm">
+                  <input id="password-confim" type="password" class="form-password__input-confirm" placeholder="········">
+                   <a href="#" class="password__confirm-input-icon" onclick="return show_hide_password2(this);">
+                        </a>
+               </div>
+               <div class="registration__form-log">
+                  <button id="registration-button" type="button">Зарегистрироваться</button>
+               </div>
+            </div>
+            <div class="registration__footer">
+               <h2>Уже есть аккаунт?<a href="../UserAccount/index.html">Войти</a></h2>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="../UserAccount/js/registration.js"></script>
+</body>
+
+</html>
